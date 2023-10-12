@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  line-height: 1.2;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.header-container {
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-container-inner {
+  width: 50%;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+  color: #fff;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(hero.jpg);
+  background-size: cover;
+}
+
+nav {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+}
+
+h1 {
+  font-size: 44px;
+  margin-bottom: 24px;
+  line-height: 1.05;
+}
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 44px;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+section {
+  padding: 96px 0;
+  background-color: #f7f7f7;
+}

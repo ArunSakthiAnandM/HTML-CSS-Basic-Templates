@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+
+    <link href="carousel.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="carousel">
+      <img class="author-img" src="maria.jpg" alt="maria" />
+      <blockquote>
+        <p class="testimonial-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
+          quasi. Sit omnis odio perferendis reiciendis quas dicta quod
+          perspiciatis quo dolore, adipisci tenetur aliquam deserunt animi
+          nostrum hic harum numquam.
+        </p>
+        <p class="testimonial-author">Maria</p>
+        <p class="testimonial-job">Manager</p>
+      </blockquote>
+      <button class="btn btn-left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+
+      <button class="btn btn-right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <button class="dot dot-fill">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
+    </div>
+    <script src="carousel.js"></script>
+  </body>
+</html>
